@@ -1,11 +1,43 @@
-## My Project
+## Creating a Generative AI  Travel Assistant App with Amazon Bedrock and AWS Amplify
 
-TODO: Fill this README out!
+This is an example shows how to build a travel assistant app. The app will provide a personalized experience by suggesting popular attractions, local experiences, and hidden gems for the user's desired destination. We will build this app using AWS mplify and Amazon Bedrock.
 
-Be sure to:
+![travel-planner-ai](images/amplify_travel_planner.gif)
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Getting Started
+### Clone repo
+
+```
+
+git clone https://github.com/aws-samples/travel-personal-assistant.git
+cd travel-personal-assistant
+
+```
+
+### Install the packages
+
+```
+
+npm i
+
+```
+
+### Initiate a cloud sandbox environment
+
+```
+
+npx ampx sandbox
+
+```
+
+### Run the App
+
+```
+
+npm run dev
+
+```
+
 
 ## Security
 
